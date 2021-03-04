@@ -143,12 +143,12 @@ cp $build_dir/output/lib/librpc.a AirLib/deps/rpclib/lib/librpc.a
 rsync -a --delete $build_dir/output/lib/ AirLib/lib/x64/Debug
 rsync -a --delete external/rpclib/rpclib-2.2.1/include AirLib/deps/rpclib
 rsync -a --delete MavLinkCom/include AirLib/deps/MavLinkCom
-rsync -a --delete AirLib Unreal/Plugins/AirSim/Source
+rsync -a --delete AirLib Unreal/Plugins/vtol-AirSim/Source
 
 # Update Blocks project
 Unreal/Environments/Blocks/clean.sh
 mkdir -p Unreal/Environments/Blocks/Plugins
-rsync -a --delete Unreal/Plugins/AirSim Unreal/Environments/Blocks/Plugins
+rsync -a --delete Unreal/Plugins/vtol-AirSim Unreal/Environments/Blocks/Plugins
 
 set +x
 
