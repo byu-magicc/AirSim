@@ -2,3 +2,7 @@
 	path = AirLib
 	url = https://github.com/byu-magicc/vtol-AirLib
 	branch = tiltrotor
+[submodule "Unreal/Plugins/vtol-AirSim"]
+	path = Unreal/Plugins/vtol-AirSim
+	url = https://github.com/byu-magicc/vtol-AirSim-Plugin
+	branch = tiltrotor-pawn
