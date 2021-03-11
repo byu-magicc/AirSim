@@ -85,8 +85,8 @@ else
             sudo apt-get update
         fi
         sudo apt-get install -y clang-5.0 clang++-5.0
-        export C_COMPILER=clang-5.0
-        export COMPILER=clang++-5.0
+        export C_COMPILER=clang
+        export COMPILER=clang++
     fi
 fi
 
